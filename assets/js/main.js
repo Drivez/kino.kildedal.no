@@ -3,8 +3,25 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+// $(document).ready(function() {
+//
+// 	$("#form").hide();
+//
+
+//
+// };
+
+
 
 (function($) {
+
+$("#form").hide();
+$("#btn-billett").hide();
+
+$("#billett").click(function(){
+	$("#form").show()
+	$("#btn-billett").show();
+});
 
 	skel.breakpoints({
 		wide: '(max-width: 1680px)',
