@@ -19,8 +19,8 @@ $("#form").hide();
 $("#btn-billett").hide();
 
 $("#billett").click(function(){
-	$("#form").show()
-	$("#btn-billett").show();
+	$("#form").toggle()
+	$("#btn-billett").toggle();
 });
 
 	skel.breakpoints({
