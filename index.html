@@ -14,7 +14,7 @@
 			<div id="header">
 				<span class="logo icon fa-video-camera"></span>
 				<h1>Kino Holt-Kildedal</h1>
-				<p>Vi ønsker dere hjertelig velkommen til en god kino opplevelse,</a>
+				<p>Vi ønsker dere hjertelig velkommen til en god kinoopplevelse,</a>
 				<br />
 				og at vi kan kose oss sammen</a>.</p>
 			</div>
@@ -32,10 +32,14 @@
 
 				<div class="box alt container">
 					<section class="feature left">
-						<a href="#" class="image icon fa-wifi"><img src="images/pic01.jpg" alt="" /></a>
+						<a href="#" class="image icon fa-shopping-cart"><img src="images/pic01.jpg" alt="" /></a>
 						<div class="content">
-							<h3>WiFi</h3>
-							<p>På kinoen er det selvsagt WiFi for alle våre gjester.</p>
+							<h3>Kiosk</h3>
+							<p>Til dagens forestilling tilbys følgende:</p>
+							<ul>
+								<b><li>Popcorn</li></b>
+								<b><li>Brownies</li></b>
+							</ul>
 						</div>
 					</section>
 					<section class="feature right">
@@ -52,7 +56,15 @@
 							<p>Dette er ikke som en vanlig kino, er her mobiler lov, men selvølgelig på lydløs slik at andre kan nyte filmen.</p>
 						</div>
 					</section>
+					<section class="feature right">
+						<a href="#" class="image icon fa-wifi"><img src="images/pic02.jpg" alt="" /></a>
+						<div class="content">
+							<h3>WiFi</h3>
+							<p>På kinoen er det selvsagt WiFi for alle våre gjester.</p>
+						</div>
+					</section>
 				</div>
+
 
 				<!--
 				<div class="box container">
@@ -205,21 +217,9 @@
 
 				<footer class="major container 75%">
 					<h3>Kveldens film</h3>
-					<p id="film">Snow White and the Huntsman</p>
+					<p id="film">Et Helt Halvt År</p>
 					<ul class="actions">
-						<section class="section">
-							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-								<defs>
-									<filter id="filter-ripple-1">
-										<feImage xlink:href="images/ripple.png" x="30" y="20" width="0" height="0" result="ripple"></feImage>
-										<feDisplacementMap xChannelSelector="R" yChannelSelector="G" color-interpolation-filters="sRGB" in="SourceGraphic" in2="ripple" scale="20" result="dm" />
-										<feComposite operator="in" in2="ripple"></feComposite>
-										<feComposite in2="SourceGraphic"></feComposite>
-									</filter>
-								</defs>
-							</svg>
-							<button id="component-8" <a href="http://www.imdb.com/title/tt1735898/?ref_=fn_al_tt_1" class="button ripple">Sjekk IMDB</a></button>
-						</section>
+						<li><a href="http://www.imdb.com/title/tt2674426/?ref_=nv_sr_1" class="button">Sjekk IMDB</a></li>
 
 					</ul>
 					<ul>
@@ -238,6 +238,17 @@
 	</li>
 </ul>
 
+<figure class="cd-image-container">
+	<img src="images/movie-before.jpg" alt="Original Image" width="730px" class="rotate180">
+	<span class="cd-image-label" data-type="original">Før Film</span>
+
+	<div class="cd-resize-img"> <!-- the resizable image on top -->
+		<img src="images/movie-after.jpg" alt="Modified Image" class="rotate180">
+		<span class="cd-image-label" data-type="modified">Under Film</span>
+	</div>
+
+	<span class="cd-handle"></span>
+</figure> <!-- cd-image-container -->
 				</footer>
 
 			</div>
@@ -294,7 +305,6 @@
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/TweenMax.min.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
